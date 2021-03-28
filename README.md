@@ -1,4 +1,55 @@
-# vinod-muralidharan-exploratory-test
+# Monefy app exploratory testing
+
+## Findings from your charters. Did everything work as expected? What bugs were discovered?
+
+yes, everything worked as expected apart from below
+ 
+ - When expenses were provided with zero income then still balance is shown in prositive
+ - Add expenses only but not income and clear app data. Then app data still doesnt get removed
+
+## Prioritisation of those charters - which area of the app or testing would you explore first and why?
+
+Below are the prioritisation provided interms of area in the order from High to low
+
+- Installation of App -  High
+- Usage of App -  High
+- Expenses and income --> smoke testing and detailed testing - High
+- Header - New Transfer - High
+- Functionality of charts and its association to income and expenses - High 
+- Sidebar Accounts  - Medium
+- Sidebar Date - Medium
+- Options - Categories - Medium
+- Options - Accounts - Low
+- Options - Settings - Low
+- Header-Menu - Low
+
+## How much time you have planned for each charter?
+
+I have decided to spend 2 hours for exploratory testing below are the breakup
+
+| Charter                                                            | Time spent |
+|--------------------------------------------------------------------|------------|
+| Installation                                                       | 1 hr       |
+| Usage                                                              |            |
+| Expense & Income                                                   |            |
+| Chart                                                              |            |
+| Functionality of charts and its association to income and expenses | 45 mins    |
+| Sidebar Accounts                                                   |            |
+| Sidebar Date                                                       |            |
+| Options - Categories                                               |            |
+| Options - Accounts                                                 | 15 mins    |
+| Options - Settings                                                 |            |
+| Header-Menu                                                        |            |
+
+
+
+## What kind of risks you need to mitigate for this type of application?
+
+ - First risk is there are more scenarios when you start thinking about the combinations. To mitigate this risk we need to use risk based testing. We need to focus more on high priority area and maximize the coverage and reduce the coverage in low priority aread. 
+ - As there are more number of test cases were need to automate most of them, it involves lot of effore, to reduce this effort we can start automating high priority testcases and easy complexity. This way we reduce manual effort in each iteration
+
+
+## Testcases written for exploratory testing:
 
 | Charter               | Test cases                                                                                                                      | Parameters                                | Outcome(Pass/fail) |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|--------------------|
